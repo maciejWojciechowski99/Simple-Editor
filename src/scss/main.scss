@@ -4,7 +4,7 @@
 @import "modules/hello.scss";
 
 body {
-  background: #000;
+  background: rgb(94, 140, 255);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -14,8 +14,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.h1{
+h1{
   font-size: 35px;
+  color: rgb(143, 229, 255);
 }
 
 .entry--js{
@@ -28,19 +29,34 @@ body {
   box-shadow: 1px 1px 1px rgb(82, 77, 77);
 }
 
-.button__load{
+.button__load--js{
   max-width: 100px;
   margin-top: 10px;
   gap:20px;
   padding: 10px;
   margin-left: 70px;
+  border-radius: 20%;
+  background-color: rgb(238, 250, 125);
+  border: none;
+  outline: none;
+  
+}
+.button__load--js:hover{
+  background-color: rgb(124, 131, 65);
 }
 
 
-.button__save{
+.button__save--js{
   max-width: 100px;
   margin-top: 10px;
   padding: 10px;
+  border-radius: 20%;
+  background-color: rgb(117, 206, 175);
+  border: none;
+
+}
+.button__save--js:hover{
+  background-color: rgb(66, 123, 103)
 }
 
 .div{
